@@ -58,6 +58,15 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<!-- otras dependencias agregadas manualmente -->
+		<dependency>
+			<groupId>com.toedter</groupId>
+			<artifactId>jdatechooser</artifactId>
+			<version>1.4</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/src/main/resources/lib/DateChooser.jar
+			</systemPath>
+		</dependency>
 
 	</dependencies>
 
